@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+}
+
+
+.menu-item:hover  {
+    display: block;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+
+}
+
+/* 公共样式，头部 */
+.publicHeader {
+    height: 60px; /* 稍微增加高度以适应右上角按钮 */
+    line-height: 60px; /* 调整行高以垂直居中内容 */
+    font-size: 14px;
+    background: linear-gradient(to bottom, #52ccfa, #31b5ea); /* 新的渐变背景色 */
+    padding: 0 20px; /* 左右内边距，为内容留出空间 */
+    position: relative; /* 为了定位右上角的按钮 */
+}
+
+.publicHeader h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; /* 移除h1的默认上边距 */
+    text-shadow: 2px 1px #000;
+}
+
+/* 移除原有的背景图片，因为示例中没有提供 */
+/* .publicHeader h1 { background: url("../images/shanhang.png") 30px center no-repeat; } */
+
+
+a {
+    width: auto; /* 自动宽度以适应内容 */
+    height: 40px; /* 稍微增加高度 */
+    line-height: 30px; /* 垂直居中文字 */
+    display: inline-block;
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 圆角 */
+    text-decoration: none; /* 移除下划线 */
+    color: black;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+
+.info-section, .form-section {
+    margin-bottom: 2rem;
+}
+
+.info-section h2, .form-section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section li {
+    /* background: url('checkmark.png') no-repeat left center;  可选：使用检查标记图标 */
+    list-style-type: none;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.info-section p{
+    font-size: 18px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-section input[type="text"],
+.form-section input[type="tel"],
+.form-section select,
+.form-section input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-section button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

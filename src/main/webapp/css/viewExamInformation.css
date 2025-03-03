@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+}
+
+
+.menu-item:hover  {
+    display: block;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+
+}
+
+/* 公共样式，头部 */
+.publicHeader {
+    height: 60px; /* 稍微增加高度以适应右上角按钮 */
+    line-height: 60px; /* 调整行高以垂直居中内容 */
+    font-size: 14px;
+    background: linear-gradient(to bottom, #52ccfa, #31b5ea); /* 新的渐变背景色 */
+    padding: 0 20px; /* 左右内边距，为内容留出空间 */
+    position: relative; /* 为了定位右上角的按钮 */
+}
+
+.publicHeader h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; /* 移除h1的默认上边距 */
+    text-shadow: 2px 1px #000;
+}
+
+
+a {
+    width: auto; /* 自动宽度以适应内容 */
+    height: 40px; /* 稍微增加高度 */
+    line-height: 30px; /* 垂直居中文字 */
+    display: inline-block;
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 圆角 */
+    text-decoration: none; /* 移除下划线 */
+    color: black;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+.content-placeholder {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #fcfbfb;
+}
+.editable {
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.query-box {
+    margin-bottom: 20px;
+}
+
+.query-box button,.query-box input{
+    margin-bottom: 10px;
+}

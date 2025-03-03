@@ -1,0 +1,109 @@
+/* 基础样式重置 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef5ff; /* 淡蓝色背景 */
+    color: #333;
+}
+
+/* 容器样式 */
+.container {
+    width: 90%;
+    max-width: 720px; /* 适当增加最大宽度 */
+    margin: 50px auto;
+    background-color: #ffffffcc; /* 稍微带点透明的白色背景，与淡蓝色形成对比 */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-sizing: border-box; /* 确保内边距和边框不会增加元素的总宽度 */
+}
+
+/* 头部样式 */
+header {
+    text-align: center;
+    margin-bottom: 27px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0056b3; /* 深蓝色标题 */
+}
+
+/* 表单整体样式 */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 表单项容器样式 */
+.form-group01, .form-group02, .form-group03, .form-group04, .form-group05, .form-group06 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* 错误提示样式 */
+.form-group01 > div, .form-group02 > div, .form-group03 > div, .form-group04 > div, .form-group05 > div, .form-group06 > div {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block; /* 默认隐藏 */
+}
+
+ 显示错误提示时样式
+.form-group01 > div.error, .form-group02 > div.error, .form-group03 > div.error, .form-group04 > div.error, .form-group05 > div.error, .form-group06 > div.error {
+    visibility: visible;
+}
+
+/* 标签样式 */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0056b3; /* 深蓝色标签 */
+}
+
+/* 输入框样式 */
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* 链接样式 */
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* 按钮样式 */
+button {
+    padding: 12px 24px;
+    background-color: #28a745; /* 深蓝色背景 */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3; /* 鼠标悬停时变为更深的蓝色 */
+    transform: scale(1.05); /* 稍微放大 */
+}
+
+/* 链接样式 */
+a {
+    color: #007bff; /* 深蓝色链接 */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0056b3; /* 鼠标悬停时变为更深的蓝色 */
+}

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+}
+
+
+.menu-item:hover  {
+    display: block;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    height: 96vh; /* 视口高度的100% */
+    background-color: #fff;
+    background-image: url('../images/welcome.jpg');
+    background-size: cover; /* 图片保持比例缩放，并填满整个元素 */
+    background-position: center; /* 图片居中显示 */
+    background-repeat: no-repeat; /* 图片不重复 */
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+
+}
+
+/* 公共样式，头部 */
+.publicHeader {
+    height: 60px; /* 稍微增加高度以适应右上角按钮 */
+    line-height: 60px; /* 调整行高以垂直居中内容 */
+    font-size: 14px;
+    background: linear-gradient(to bottom, #52ccfa, #31b5ea); /* 新的渐变背景色 */
+    padding: 0 20px; /* 左右内边距，为内容留出空间 */
+    position: relative; /* 为了定位右上角的按钮 */
+}
+
+.publicHeader h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; /* 移除h1的默认上边距 */
+    text-shadow: 2px 1px #000;
+}
+
+/* 移除原有的背景图片，因为示例中没有提供 */
+/* .publicHeader h1 { background: url("../images/shanhang.png") 30px center no-repeat; } */
+
+
+ a {
+    width: auto; /* 自动宽度以适应内容 */
+    height: 40px; /* 稍微增加高度 */
+    line-height: 30px; /* 垂直居中文字 */
+    display: inline-block;
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 圆角 */
+    text-decoration: none; /* 移除下划线 */
+     color: black;
+}
+
+ .h3 {
+     font-size: 25px;
+ }
+
+
+

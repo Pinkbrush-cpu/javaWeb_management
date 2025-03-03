@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+}
+
+
+.menu-item:hover  {
+    display: block;
+}
+
+
+h1 {
+    margin-top: 0;
+
+}
+
+/* 公共样式，头部 */
+.publicHeader {
+    height: 60px; /* 稍微增加高度以适应右上角按钮 */
+    line-height: 60px; /* 调整行高以垂直居中内容 */
+    font-size: 14px;
+    background: linear-gradient(to bottom, #52ccfa, #31b5ea); /* 新的渐变背景色 */
+    padding: 0 20px; /* 左右内边距，为内容留出空间 */
+    position: relative; /* 为了定位右上角的按钮 */
+}
+
+.publicHeader h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; /* 移除h1的默认上边距 */
+    text-shadow: 2px 1px #000;
+}
+
+
+
+a {
+    width: auto; /* 自动宽度以适应内容 */
+    height: 40px; /* 稍微增加高度 */
+    line-height: 30px; /* 垂直居中文字 */
+    display: inline-block;
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 圆角 */
+    text-decoration: none; /* 移除下划线 */
+    color: black;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.base-info[data-v-60b18741] {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.base-info .base-info-head[data-v-60b18741] {
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e2e2e;
+    padding-left: 16px;
+    border-bottom: 1px solid #f0f0f2;
+}
+
+.base-info .base-info-content .base-info-content-show ul li[data-v-60b18741] {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.base-info .base-info-content[data-v-60b18741] {
+    padding: 16px;
+}
+
+.base-info .base-info-content .base-info-content-show[data-v-60b18741] {
+    padding: 16px 58px 16px 0;
+    position: relative;
+}
+
+.base-info .base-info-content .base-info-content-show ul li .content-show-l[data-v-60b18741] {
+    width: 56px;
+    color: #555666;
+    margin-right: 40px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-left: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.base-info .base-info-content .base-info-content-show ul li .content-show-r[data-v-60b18741] {
+    color: #222226;
+    word-break: break-all;
+}
+
+.base-info .edit-icon[data-v-60b18741] {
+    display: none;
+    margin-left: 24px;
+    cursor: pointer;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    color: #1989fa;
+    font-size: 14px;
+    min-width: 50px;
+}
+
+.base-info .base-info-content .base-info-content-show ul li .content-show-r.no-data[data-v-60b18741] {
+    color: #999aaa;
+}
+
+.base-info .add-btn-wrap[data-v-60b18741] {
+    font-size: 14px;
+    color: #277ccc;
+    cursor: pointer;
+}
+
+.base-info .add-btn-wrap .icon-add-blue[data-v-60b18741] {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position: 50%;
+    background-size: 16px 16px;
+    position: relative;
+    top: 2px;
+}

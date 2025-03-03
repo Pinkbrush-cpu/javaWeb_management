@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+}
+
+
+.menu-item:hover  {
+    display: block;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+
+}
+
+/* 公共样式，头部 */
+.publicHeader {
+    height: 60px; /* 稍微增加高度以适应右上角按钮 */
+    line-height: 60px; /* 调整行高以垂直居中内容 */
+    font-size: 14px;
+    background: linear-gradient(to bottom, #52ccfa, #31b5ea); /* 新的渐变背景色 */
+    padding: 0 20px; /* 左右内边距，为内容留出空间 */
+    position: relative; /* 为了定位右上角的按钮 */
+}
+
+.publicHeader h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; /* 移除h1的默认上边距 */
+    text-shadow: 2px 1px #000;
+}
+
+a {
+    width: auto; /* 自动宽度以适应内容 */
+    height: 40px; /* 稍微增加高度 */
+    line-height: 30px; /* 垂直居中文字 */
+    display: inline-block;
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 圆角 */
+    text-decoration: none; /* 移除下划线 */
+    color: black;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    width: 120px;
+    text-align: right;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%; /* 让提交按钮宽度占满整个盒子 */
+    text-align: center; /* 文字居中 */
+    margin-top: 10px; /* 添加间距 */
+    margin-left: 80px;
+}
+
+ul {
+    list-style: none; /* 去掉列表样式 */
+    padding: 0;
+}
+
+.box {
+    width: 80%; /* 根据需要调整宽度 */
+    max-width: 600px; /* 最大宽度，防止内容过宽 */
+    margin-left: 280px;
+    margin-top: 180px;
+    padding: 20px; /* 添加内边距，使内容不紧贴边框 */
+}
