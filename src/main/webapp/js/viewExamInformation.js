@@ -5,7 +5,7 @@ window.onload = function queryLatestExamStudents() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById("examTbody").innerHTML = xhr.responseText;
         } else if (xhr.readyState === 4 && xhr.status !== 200) {
-            alert("显示异常，请联系管理员！")
+            alert("鏄剧ず寮傚父锛岃鑱旂郴绠＄悊鍛橈紒")
         }
     };
     xhr.send();
