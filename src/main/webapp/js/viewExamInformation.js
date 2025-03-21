@@ -9,4 +9,4 @@ window.onload = function queryLatestExamStudents() {
         }
     };
     xhr.send();
-}//
+}
